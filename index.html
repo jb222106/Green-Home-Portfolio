@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Greening Your Home</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #e0f7fa, #f1f8e9);
+      color: #333;
+    }
+    frameset {
+      border: none;
+    }
+    frame {
+      border: none;
+    }
+    .header {
+      background-color: #2e7d32;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 24px;
+      font-weight: bold;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .sidebar {
+      background-color: #a5d6a7;
+    }
+    .main {
+      background-color: #ffffff;
+      padding: 20px;
+    }
+  </style>
+</head>
+<frameset rows="15%,85%" frameborder="0">
+  <frame src="navbar.html" name="navbar" scrolling="no">
+  <frameset cols="20%,80%">
+    <frame src="sidebar.html" name="sidebar">
+    <frame src="home.html" name="main">
+  </frameset>
+</frameset>
+</html>
